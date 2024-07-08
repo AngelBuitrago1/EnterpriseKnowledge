@@ -98,6 +98,7 @@ st.html("""
     <body>
     <center> 
     <img src=https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png width=200>
+    <br>
     <img src=https://www.segurossura.com.co/images/home-2021/logo-sura.svg width=100>
     </center>
     </html>
