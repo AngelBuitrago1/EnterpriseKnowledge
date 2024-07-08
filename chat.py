@@ -84,9 +84,10 @@ def response_generator(response_str):
         time.sleep(0.01)
         yield word
 
-st.set_page_config(page_title='SuraDay Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
-st.header("Sura Day Automation Anywhere - AAI Brain")
+st.set_page_config(page_title='SuraDay - Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
+st.header("Sura Day - Automation Anywhere - AAI Brain")
 # st.image("https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png")
+# st.image("https://www.segurossura.com.co/images/home-2021/logo-sura.svg")
 st.html("""
     <!doctype html>
     <html lang="en">
