@@ -84,10 +84,10 @@ def response_generator(response_str):
         time.sleep(0.01)
         yield word
 
-st.set_page_config(page_title='SuraDay - Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
-st.header("Sura Day - Automation Anywhere - AAI Brain")
+st.set_page_config(page_title='Bancolombia - Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
+st.header("Bancolombia - Automation Anywhere - AAI Brain")
 # st.image("https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png")
-# st.image("https://www.segurossura.com.co/images/home-2021/logo-sura.svg")
+# st.image("https://www.bancolombia.com/wcm/connect/a67af2d6-c768-4f4f-a33b-fd58074f7ce9/logo-bancolombia-black.svg?MOD=AJPERES")
 st.html("""
     <!doctype html>
     <html lang="en">
@@ -99,7 +99,7 @@ st.html("""
     <center> 
     <img src=https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png width=200>
     <br>
-    <img src=https://www.segurossura.com.co/images/home-2021/logo-sura.svg width=100>
+    <img src=https://www.bancolombia.com/wcm/connect/a67af2d6-c768-4f4f-a33b-fd58074f7ce9/logo-bancolombia-black.svg?MOD=AJPERES width=100>
     </center>
     </html>
 """)
