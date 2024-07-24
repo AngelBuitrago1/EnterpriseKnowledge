@@ -84,10 +84,10 @@ def response_generator(response_str):
         time.sleep(0.01)
         yield word
 
-st.set_page_config(page_title='Tuya - Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
-st.header("Tuya - Automation Anywhere - AAI Brain")
+st.set_page_config(page_title='GBM - Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
+st.header("GBM - Automation Anywhere - AAI Brain")
 # st.image("https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png")
-# st.image("https://www.tuya.com.co/sites/all/themes/tuya/assets/images/pre-home/logo_tuya.svg")
+# st.image("https://www.gbm.net/wp-content/uploads/2023/07/logo-de-GBM.svg")
 st.html("""
     <!doctype html>
     <html lang="en">
@@ -99,7 +99,7 @@ st.html("""
     <center> 
     <img src=https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png width=200>
     <br>
-    <img src=https://www.tuya.com.co/sites/all/themes/tuya/assets/images/pre-home/logo_tuya.svg width=100>
+    <img src=https://www.gbm.net/wp-content/uploads/2023/07/logo-de-GBM.svg width=100>
     </center>
     </html>
 """)
